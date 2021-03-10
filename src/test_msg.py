@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from my_package.msg import my_message
+from lab2_2021.msg import my_message
 
 def talker():
   pub = rospy.Publisher('customized_msg', my_message, queue_size=10)
