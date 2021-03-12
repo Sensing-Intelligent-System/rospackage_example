@@ -1,6 +1,6 @@
 <launch>
 
-    <node name="talker1" pkg="lab2_2021" type="talker1.py" />
-    <node name="listener1" pkg="lab2_2021" type="listener1.py" />
+    <node name="talker1" pkg="rospackage_example" type="talker1.py" />
+    <node name="listener1" pkg="rospackage_example" type="listener1.py" />
 
 </launch>
