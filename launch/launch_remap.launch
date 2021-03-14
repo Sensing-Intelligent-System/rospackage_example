@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="talker" pkg="rospackage_example" type="talker.py" />
+  
+    <node name="listener" pkg="rospackage_example" type="listener.py" />
+        <remap from="hello" to="/greeting" />
+    </node>
+
+</launch>
