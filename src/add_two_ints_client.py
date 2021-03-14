@@ -1,6 +1,6 @@
 import sys
 import rospy
-from lab2_2021.srv import AddTwoInts, AddTwoIntsResponse
+from rospackage_example.srv import AddTwoInts, AddTwoIntsResponse
 
 def add_two_ints_client(x, y):
   rospy.wait_for_service('add_two_ints')
